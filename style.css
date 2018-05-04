@@ -1,0 +1,122 @@
+
+
+/* Controls top buttons look/size */
+.header-button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* Generic center */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* makes circle border on Brock profile pic */
+.profile-border {
+    border-color: white;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+/* Text for "Brock Lubecker" */
+h1 {
+  font-size: 30px;
+  font-family: Helvetica;
+  color: white;
+  background: black;
+  margin: 0;
+  }
+/* Text for  */
+h2 {
+  font-size: 16px;
+  font-family: Helvetica;
+  background: black;
+  color: white;
+  margin: 0;
+	padding-top: 15px;
+	
+  }
+/*  */
+h3 {
+  font-size: 30px;
+  font-family: Helvetica;
+  color: white;
+  text-align: center;
+  background: black;
+  padding: 20px 0px 20px 0px;
+	margin: 0;
+  }
+/*  */
+p {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+  /*
+  text-align: center;
+  */
+  background: black;
+  margin: 0;
+  }
+/*  */
+.small-image {
+    width: 25%;
+  max-width: 300px;
+  min-width: 200px;
+  }
+/* paadding for paragraph text */
+.bs-padding {
+  padding: 20px 20% 0% 20%;
+}
+.coming-soon {
+	background: white;
+	border-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 0%;
+	min-width: 80%;
+	max-width: 50%;
+	margin-left: 10%;
+    margin-right: 10%;
+	margin-top: 5%;
+}
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+.coming-wrap {
+	width: 100%;
+	background: black;
+}
+.contact-container {
+	padding-top: 25px;
+	background: black;
+	margin-color: black;
+}
+.img-overlap {
+	background-image: url(https://images2.imgbox.com/9d/20/1z0CL2gn_o.png);
+	padding: 5% 0 5% 0;
+	margin: 0;
+}
+.btn {
+	background: black;
+	border-radius: 0;
+	
+}
+.social-icons {
+	background: black;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	padding-top: 20px;
+}
+
