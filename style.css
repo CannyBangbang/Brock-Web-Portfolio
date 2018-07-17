@@ -29,6 +29,7 @@ RGB(49, 51, 51) or 313333ff - grey(background)
 }
 body, html {
     height: 100%;
+    text-align: center;
 }
 #background {
     background-image: url('https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/ring_background.png');
