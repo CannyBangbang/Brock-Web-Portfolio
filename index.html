@@ -3,109 +3,111 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Brock Web Portfolio</title>
   </head>
   <body>
     <div id='background'>
-      <nav id='navbar' class='navbar navbar-expand-lg'>
-        <a class="nav-item nav-link" href="#welcome-section">Welcome</a>
-        <a class="nav-item nav-link" href="#projects">Projects</a>
-      </nav>
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="nav-item nav-link" href="#welcome-section">Welcome</a></li>
+                <li><a class="nav-item nav-link" href="#projects">Projects</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       <div id='welcome-section'>
-        <!--The height of the welcome section should be equal to the height of the viewport.-->
         <h1>Welcome</h1>
+        <div>Brock Lubecker</div>
       </div>
       <div id='projects'>
         <h1>Projects</h1>
         <div id='project-tile-wrapper'>
 
           <!-- put in order that looks good-->
-
+          
           <a href="url">
             <div class='project-tile'>
               <img class="screenshot" src="https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/Cube_Product_Sm.png" alt="cube-pic">
-              <h2>Rubik's Cube Product Page</h2>
             </div>
           </a>
 
           <a href="url">
             <div class='project-tile'>
               <img class="screenshot" src="https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/Quote_Generator_Sm.png" alt="quote-pic">
-              <h2>Random Quote Generator</h2>
           </div>
           </a>
 
           <a href="url">
             <div class='project-tile'>
               <img class="screenshot" src="https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/JS_Clock_Sm.png" alt="clock-pic">
-              <h2>Clock</h2>
-            </div>
-          </a>
-
-          <a href="url">
-            <div class='project-tile'>
-              <img class="screenshot" src="https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/Twitch_Streamers_Sm.png" alt="twitch-pic">
-              <h2>Twitch Streamers</h2>
-            </div>
-          </a>
-
-          <a href="url">
-            <div class='project-tile'>
-              <img class="screenshot" src="https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/Wiki_Viewer_Sm.png" alt="wiki-pic">
-              <h2>Wikipedia Viewer</h2>
             </div>
           </a>
 
           <a href="url">
             <div class='project-tile'>
               <img class="screenshot" src="https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/Local_Weather_Sm.png" alt="quote-pic">
-              <h2>Local Weather Finder</h2>
             </div>
+          </a>
+
+          <a href="url">
+              <div class='project-tile'>
+                <img class="screenshot" src="https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/Twitch_Streamers_Sm.png" alt="twitch-pic">
+              </div>
+            </a>
+
+          <a href="url">
+              <div class='project-tile'>
+                <img class="screenshot" src="https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/Wiki_Viewer_Sm.png" alt="wiki-pic">
+              </div>
           </a>
 
         </div>
         <div id='contact-btns'>
           <a target='_blank' href="https://www.linkedin.com/in/brock-lubecker-aa3a1935/">
             <button class="btn">
-              <i class="fa fa-linkedin-square" style="font-size:48px;color:white"></i>
+              <i class="fa fa-linkedin-square"></i>
             </button>
           </a>
           <a target='_blank' href="https://codepen.io/CannyBangbang/">
             <button class="btn">
-              <i class="fa fa-codepen" style="font-size:48px;color:white"></i>
+              <i class="fa fa-codepen"></i>
             </button>
           </a>
           <a target='_blank' href="https://github.com/CannyBangbang">
             <button class="btn">
-              <i class="fa fa-github" style="font-size:48px;color:white"></i>
+              <i class="fa fa-github"></i>
             </button>
           </a>
           <a target='_blank' href="https://www.freecodecamp.org/cannybangbang">
             <button class="btn">
-              <i class="fa fa-free-code-camp" style="font-size:48px;color:white"></i>
+              <i class="fa fa-free-code-camp"></i>
             </button>
           </a>
           <a target='_blank' href="mailto:brocklubecker@gmail.com">
             <button class="btn">
-              <i class="fa fa-envelope" style="font-size:48px;color:white"></i>
+              <i class="fa fa-envelope"></i>
             </button>
           </a>
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
 
 
     

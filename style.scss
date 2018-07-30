@@ -1,49 +1,57 @@
+$yellow: #ffeaa5;
+$red: #fe5f55;
+$aqua: #c7efcf;
+$bone: #eef5db;
+$grey-bg: #313333;
+
 body, html {
-  color: #eef5db;
+  color: $bone;
   height: 100%;
   text-align: center;
-  background-color: #313333; }
-
+  background-color: $grey-bg;
+}
 #background {
-  background-image: url("https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/ring_background.png");
+  background-image: url('https://s3.us-east-2.amazonaws.com/brock.portfolio.page.v2/ring_background.png');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
-
+  background-size: cover;
+}
 .navbar {
-  background-color: #313333;
+  background-color: $grey-bg;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  border-bottom-color: #eef5db; }
+  border-bottom-color: $bone;
+}
 
-.navbar-default .navbar-nav > li > a {
-  color: #eef5db; }
+.navbar-default .navbar-nav>li>a {
+  color: $bone; 
+}
 
 .fa {
   font-size: 48px;
-  border-color: #313333;
-  background-color: #313333;
-  color: #eef5db; }
-
+  border-color: $grey-bg;
+  background-color: $grey-bg;
+  color: $bone;
+}
 .btn {
-  border-color: #313333;
-  background-color: #313333; }
-
+  border-color: $grey-bg;
+  background-color: $grey-bg;
+}
 #welcome-section {
   height: 100%;
   font-size: 30vh;
-  color: black; }
-
+  color: black;
+}
 #project-tile-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 0px; }
-
+  grid-gap: 0px;
+}
 .screenshot {
   display: block;
-  width: 100%; }
-
+  width: 100%;
+}
 /* 
 @media screen and (max-width: 767px) {
   body {
@@ -66,5 +74,3 @@ body, html {
   }
 }
 */
-
-/*# sourceMappingURL=style.css.map */
